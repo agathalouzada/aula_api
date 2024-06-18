@@ -1,0 +1,28 @@
+{
+    "info": {
+        "_postman_id": "2b71118f-a09f-4186-91bc-3e197f55584e",
+        "name": "status",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+        "description": ""
+    },
+    "item": [
+        {
+            "name": "verifica_status",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "http://localhost/aula_api/app/satus/",
+                    "path": [
+                        "aula_api",
+                        "app",
+                        "satus"
+                    ],
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ]
+                }
+            }
+        }
+    ]
+}
